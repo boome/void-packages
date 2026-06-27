@@ -1,6 +1,6 @@
 # Template file for 'milou'
 pkgname=milou
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -16,4 +16,4 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/milou"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=909834cd7c62de83255a97090c685903ed6245b50be9c15d299703d9b822f9fd
+checksum=7c1f8b5ce850f5990800422f530130dd14fde3642c7c916100516fd6836ace9f
