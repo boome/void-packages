@@ -1,6 +1,6 @@
 # Template file for 'kf6-knotifications'
 pkgname=kf6-knotifications
-version=6.25.0
+version=6.27.0
 revision=1
 build_style=cmake
 _llvmver=21
@@ -18,7 +18,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/knotifications"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=0884add69f26a455cb8b6327bf89dc7ad3a0e4397c43c202fcf7ff73204ec695
+checksum=eeb067fab001dd24735ad56e8ec4808fca76e5ecdf003cf614246c9abe1c3e19
 
 build_options="python"
 build_options_default="python"
