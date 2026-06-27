@@ -1,6 +1,6 @@
 # Template file for 'plasma-systemmonitor'
 pkgname=plasma-systemmonitor
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -18,7 +18,7 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-only, GPL-3.0-only, LGPL-2.1-only, LGPL-3.0-only"
 homepage="https://invent.kde.org/plasma/plasma-systemmonitor"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=411bd919fa926bc6d7b44645f546bd48b0b82ae1f3fe97999a0568abd7019c85
+checksum=bb876e2b7e2e9450e4207438d2564282d28514d48b9e1f16534099821f3b72fb
 
 ksysguard_package() {
 	metapackage=yes
