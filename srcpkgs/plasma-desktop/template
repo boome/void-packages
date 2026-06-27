@@ -1,6 +1,6 @@
 # Template file for 'plasma-desktop'
 pkgname=plasma-desktop
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF
@@ -37,6 +37,6 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.0-or-later, LGPL-2.1-or-later, GFDL-1.2-or-later"
 homepage="https://invent.kde.org/plasma/plasma-desktop"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=c5c026bb5a4a29aaf79a9bc07e77873c851f625ef5ba94ce0b717da6f18b1a18
+checksum=f0450dc26706fc2d719ab28e3102149cfbf6a72e81cd310c936b85c08abb6f2f
 replaces="user-manager>=0"
 python_version=3
