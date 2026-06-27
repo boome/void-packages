@@ -1,6 +1,6 @@
 # Template file for 'kf6-kcrash'
 pkgname=kf6-kcrash
-version=6.25.0
+version=6.27.0
 revision=1
 build_style=cmake
 hostmakedepends="extra-cmake-modules qt6-tools qt6-base "
@@ -10,7 +10,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kcrash"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=b1b952c500787e760c0fca3ce20c6ed8cf488ed106e0e72bc604509df84d8fd7
+checksum=f8e1083863dac2c07068b10614ca7d4b52c6920df0228854cfc37e0d6578d902
 
 kf6-kcrash-devel_package() {
 	depends="$makedepends ${sourcepkg}>=${version}_${revision}"
