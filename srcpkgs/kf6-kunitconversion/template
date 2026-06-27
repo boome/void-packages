@@ -1,6 +1,6 @@
 # Template file for 'kf6-kunitconversion'
 pkgname=kf6-kunitconversion
-version=6.25.0
+version=6.27.0
 revision=1
 _llvmver=21
 build_style=cmake
@@ -14,7 +14,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kunitconversion"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=369ef042de797ea647994c524cc43915b514850026cfddb4b24bc78bdfc3dcc8
+checksum=404e064114c95eca0ef759b96ca4e0ba5f9b8bc563138574358270963f3f5554
 
 build_options="python"
 build_options_default="python"
