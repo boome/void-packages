@@ -1,6 +1,6 @@
 # Template file for 'ksshaskpass'
 pkgname=ksshaskpass
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake"
@@ -12,5 +12,5 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/ksshaskpass"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=f19f8a135abe71abeb55b2d01a6fdf207977e5b6ff74ba95a149bb32714118fc
+checksum=638141fd26395005b5dd1f7d0454ba9fea7d264ba93437981f34553552a2d40c
 alternatives="ssh-askpass:/usr/libexec/ssh-askpass:/usr/bin/ksshaskpass"
