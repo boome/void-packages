@@ -1,6 +1,6 @@
 # Template file for 'kf6-kdeclarative'
 pkgname=kf6-kdeclarative
-version=6.25.0
+version=6.27.0
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml"
@@ -14,7 +14,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kdeclarative"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=7692ccdffd55826976e916927b59aeb2d24a77b16af967fb265e9fe0cde387fa
+checksum=b14e81143aed25ee62413f9c2b3742c558f5b6a1da6c5b92ca9a95bb6341e964
 
 kf6-kdeclarative-devel_package() {
 	depends="${sourcepkg}>=${version}_${revision} kf6-kconfig-devel
