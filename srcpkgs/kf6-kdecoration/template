@@ -1,6 +1,6 @@
 # Template file for 'kf6-kdecoration'
 pkgname=kf6-kdecoration
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF"
@@ -11,7 +11,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kdecoration"
 distfiles="${KDE_SITE}/plasma/${version}/kdecoration-${version}.tar.xz"
-checksum=0760e182234d79b3a693d12920284c9b864c437f797dbcd526188d761b7de3e9
+checksum=3a5d8f57bab452eabd1aadc45088b95a669a951626c7e601f6a0ef36030684bf
 
 kf6-kdecoration-devel_package() {
 	conflicts="kdecoration-devel>=0"
