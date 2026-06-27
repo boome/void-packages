@@ -1,6 +1,6 @@
 # Template file for 'plasma-keyboard'
 pkgname=plasma-keyboard
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QMLDIR=lib/qt6/qml
@@ -11,13 +11,15 @@ hostmakedepends="extra-cmake-modules gettext wayland-devel
  kf6-kcmutils kf6-kconfig"
 makedepends="kf6-kcoreaddons-devel kf6-ki18n-devel
  kf6-kcmutils-devel kf6-kconfig-devel qt6-virtualkeyboard-devel
- qt6-wayland-private-devel qt6-base-private-devel kf6-kcrash-devel"
+ qt6-wayland-private-devel qt6-base-private-devel kf6-kcrash-devel
+ libplasma-devel
+ kf6-kirigami-devel"
 short_desc="Virtual Keyboard for Qt based desktops"
 maintainer="John <me@johnnynator.dev>"
 license="(GPL-2.0-only OR GPL-3.0-only OR custom:LicenseRef-KDE-Accepted-GPL) AND GPL-3.0-or-later AND (LGPL-2.1-only OR LGPL-3.0-only OR custom:LicenseRef-KDE-Accepted-LGPL)"
 homepage="https://invent.kde.org/plasma/plasma-keyboard"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=fd10bafeb13b1065720dbf8ee334354f050979eddec8b2b025f76c6eb1a1193c
+checksum=acf36a8d36150c6a0ecee2eeb0f70c4f1226cae3fedf47f38e06d765b6388047
 
 post_install() {
 	vlicense LICENSES/LicenseRef-KDE-Accepted-GPL.txt
