@@ -1,6 +1,6 @@
 # Template file for 'polkit-kde-agent'
 pkgname=polkit-kde-agent
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext"
@@ -13,4 +13,4 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later"
 homepage="https://commits.kde.org/polkit-kde-agent"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-1-${version}.tar.xz"
-checksum=3189471debe07a3f779efb247a9db1c15618cd70f37fc360e78078f40d5507a4
+checksum=1af2f2b2b33e18384eb120c7422f6d28ff3c7855b33a988e1777dee482d678a7
