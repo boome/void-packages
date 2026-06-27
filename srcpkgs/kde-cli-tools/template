@@ -1,6 +1,6 @@
 # Template file for 'kde-cli-tools'
 pkgname=kde-cli-tools
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -18,7 +18,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later, GPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/kde-cli-tools"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=b51294a62d0dd3bc0232a3b9b0314405717aa5081fafa48445b5c66b1899def6
+checksum=287e40d40f6e555b36f0c43b66711c7a08663024a8106c4b02ec4cff6d79141b
 
 post_install() {
 	ln -sf ../libexec/kf6/kdesu ${DESTDIR}/usr/bin
