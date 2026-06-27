@@ -1,6 +1,6 @@
 # Template file for 'knighttime'
 pkgname=knighttime
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 hostmakedepends="qt6-base extra-cmake-modules kf6-kconfig gettext
@@ -13,7 +13,7 @@ maintainer="Đoàn Trần Công Danh <congdanhqx@gmail.com>"
 license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/knighttime"
 distfiles="${KDE_SITE}/plasma/${version}/knighttime-${version}.tar.xz"
-checksum=97f612eb6cae0ee39ad3579bb9124d701751c83fd02cd3f5ed120896b1313a21
+checksum=d4c60d9ebeb13b9f4d0ccabf0545a482d9b899333ab4a86cb78b165acf59ed43
 
 knighttime-devel_package() {
 	depends="${sourcepkg}>=${version}_${revision}"
