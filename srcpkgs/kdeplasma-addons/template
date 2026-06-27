@@ -1,12 +1,13 @@
 # Template file for 'kdeplasma-addons'
 pkgname=kdeplasma-addons
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
  -DKDE_INSTALL_QMLDIR=lib/qt6/qml -DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
 hostmakedepends="extra-cmake-modules qt6-base qt6-tools pkg-config gettext
- qt6-declarative-host-tools kf6-kcmutils kf6-kpackage kf6-kauth-tools"
+ qt6-declarative-host-tools kf6-kcmutils kf6-kpackage kf6-kauth-tools
+ corrosion cargo"
 makedepends="kf6-kdeclarative-devel kf6-kholidays-devel kf6-krunner-devel
  libplasma-devel qt6-declarative-private-devel kf6-kglobalaccel-devel
  kf6-kconfig-devel kf6-kcoreaddons-devel kf6-kdbusaddons-devel
@@ -27,7 +28,7 @@ maintainer="Orphaned <orphan@voidlinux.org>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kdeplasma-addons"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=e9c99ea5283d708fe06257f277313fdfa19bccfaf81482a28a50fce0bfff2947
+checksum=9d0e71ef1808506308751b5f9b274c96dcbd3d302c3c2495ad6d51eb3b7ea4ff
 
 if [ "$XBPS_WORDSIZE$XBPS_WORDSIZE" = "64$XBPS_TARGET_WORDSIZE" ]; then
 	makedepends+=" qt6-webengine-devel"
