@@ -1,6 +1,6 @@
 # Template file for 'krdp'
 pkgname=krdp
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -10,7 +10,7 @@ hostmakedepends="extra-cmake-modules pkg-config qt6-base gettext qt6-tools freer
  kf6-kconfig kf6-kcmutils wayland-devel"
 makedepends="kf6-kcmutils-devel kf6-kconfig-devel kf6-kcoreaddons-devel
  kf6-ki18n-devel kpipewire-devel kf6-kstatusnotifieritem-devel
- kf6-kdbusaddons-devel kf6-kcrash-devel kf6-kguiaddons-devel pam-devel
+ kf6-kdbusaddons-devel kf6-kcrash-devel kf6-kguiaddons-devel kirigami-addons-devel pam-devel
  qtkeychain-qt6-devel plasma-wayland-protocols freerdp-devel
  qt6-declarative-devel libxkbcommon-devel
  libxcb-devel pipewire-devel qt6-base-private-devel freerdp"
@@ -19,4 +19,4 @@ maintainer="Orphaned <orphan@voidlinux.org>"
 license="LGPL-2.0-or-later"
 homepage="https://invent.kde.org/plasma/krdp"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=ae030e0ae4ed7a617392e6ad50cd99626fa6e402ee3fcaefec327adbfb37f630
+checksum=6d87ba05efd29f84a730a15c74810925357e875dbedf5bcbf6926a5452eb7f79
