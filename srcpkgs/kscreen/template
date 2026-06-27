@@ -1,6 +1,6 @@
 # Template file for 'kscreen'
 pkgname=kscreen
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DBUILD_TESTING=OFF -DKF6_HOST_TOOLING=/usr/lib/cmake
@@ -11,11 +11,12 @@ hostmakedepends="extra-cmake-modules qt6-base qt6-tools gettext
 makedepends="kf6-kxmlgui-devel kf6-kcmutils-devel kf6-ksvg-devel
  kf6-kdbusaddons-devel kf6-kcrash-devel
  kf6-kpackage-devel libkf6screen-devel layer-shell-qt-devel libplasma-devel
- qt6-sensors-devel qt6-base-private-devel wayland-protocols"
+ qt6-sensors-devel qt6-base-private-devel wayland-protocols
+ kf6-kitemmodels-devel plasma5support-devel"
 depends="hicolor-icon-theme"
 short_desc="KDE screen management software"
 maintainer="John <me@johnnynator.dev>"
 license="GPL-2.0-or-later, LGPL-2.1-or-later"
 homepage="https://invent.kde.org/plasma/kscreen"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=45f2999182eef89991812cfcf085b368d58052d21c22ab46325998aa51db13d1
+checksum=f79c5f160d3876e5df2f17e104f3a37fa43a40b6b967da3cebcee9e272acf47f
