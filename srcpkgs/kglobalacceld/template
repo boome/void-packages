@@ -1,6 +1,6 @@
 # Template file for 'kglobalacceld'
 pkgname=kglobalacceld
-version=6.6.3
+version=6.7.1
 revision=1
 build_style=cmake
 configure_args="-DKDE_INSTALL_QTPLUGINDIR=lib/qt6/plugins"
@@ -13,7 +13,7 @@ maintainer="John <me@johnnynator.dev>"
 license="GPL-3.0-or-later"
 homepage="https://invent.kde.org/plasma/kglobalacceld"
 distfiles="${KDE_SITE}/plasma/${version}/${pkgname}-${version}.tar.xz"
-checksum=bcb5d43146df016fe568401912538de8c70e01c4e6da78740e6f2181a8b29ea7
+checksum=0f2712ff1f5a4c443e2e1df703fb074e2d75da55f1fe039a0eec38a58708e7a7
 
 do_check() {
 	cd build
