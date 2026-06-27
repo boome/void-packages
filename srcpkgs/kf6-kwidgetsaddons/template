@@ -1,6 +1,6 @@
 # Template file for 'kf6-kwidgetsaddons'
 pkgname=kf6-kwidgetsaddons
-version=6.25.0
+version=6.27.0
 revision=1
 _llvmver=21
 build_style=cmake
@@ -15,7 +15,7 @@ maintainer="John <me@johnnynator.dev>"
 license="LGPL-2.1-or-later"
 homepage="https://invent.kde.org/frameworks/kwidgetsaddons"
 distfiles="${KDE_SITE}/frameworks/${version%.*}/${pkgname#kf6-}-${version}.tar.xz"
-checksum=8a9f9cde4427ffec37a0501d337aadae3de39736674f571ff8a13d17d1e6c938
+checksum=4cba86999331960b3fddac8ed02cccb31fc49406422360217135f6bf3fbca8d9
 
 build_options="python"
 build_options_default="python"
